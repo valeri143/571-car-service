@@ -1,0 +1,20 @@
+import{r,_ as i,u as s,j as e,b as o}from"./index-1fbd4b46.js";import{C as n}from"./CarTireServiceRepairHero-0948a79f.js";import{a as p,b as c,c as d,d as a}from"./CarServiceRepair.styled-9023d463.js";import{C as x}from"./CarServiceRepairForm-48674675.js";import"./Hero.styled-9a91b5e8.js";import"./Error-48347680.js";const m="/571-car-service/assets/tire-rpr-bg@1x-min-d670f69e.jpg",l="/571-car-service/assets/tire-rpr-bg@2x-min-45b29811.jpg",_=r.lazy(()=>i(()=>import("./CarTireServiceTiresRepairPrice-f434ac3d.js"),["assets/CarTireServiceTiresRepairPrice-f434ac3d.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/CarServiceRepair.styled-9023d463.js","assets/CarTireServiceRepair.styled-8020a316.js"])),g=()=>{const{t}=s();return e.jsxs("section",{children:[e.jsx("h2",{hidden:!0,children:"tireRepair"}),e.jsx(p,{children:e.jsxs(c,{children:[e.jsx(x,{}),e.jsxs(d,{children:[e.jsx(a,{children:t("tireRepair.paragraph.0")}),e.jsx(a,{children:t("tireRepair.paragraph.1")})]}),e.jsx(_,{h2:"tireRepair.h2",price:"tireRepair.priceList",list:"tireRepair.serviceList"})]})})]})},h=r.lazy(()=>i(()=>import("./SectionFeedbacks-7110bdc1.js"),["assets/SectionFeedbacks-7110bdc1.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/FeedbacksItem-b40d9471.js","assets/FeedbacksItem.styled-e4a7c8c3.js","assets/SectionFeedbacks.styled-b54c67bb.js","assets/SectionServices.styled-488ff22e.js","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionCertifications.styled-f983a02e.js"])),u=r.lazy(()=>i(()=>import("./SectionCertifications-948d4af5.js"),["assets/SectionCertifications-948d4af5.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionAbout.styled-d7f5d68c.js","assets/SectionCertifications.styled-f983a02e.js","assets/Hero.styled-9a91b5e8.js","assets/SectionCertifications-1d4a300e.css"])),j=r.lazy(()=>i(()=>import("./SectionForm-e2e1fdd7.js").then(t=>t.a),["assets/SectionForm-e2e1fdd7.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Error-48347680.js","assets/SectionServices.styled-488ff22e.js","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionCertifications-948d4af5.js","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionAbout.styled-d7f5d68c.js","assets/SectionCertifications.styled-f983a02e.js","assets/SectionCertifications-1d4a300e.css"])),v=r.lazy(()=>i(()=>import("./SectionBlog-51ab8aae.js"),["assets/SectionBlog-51ab8aae.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionServices.styled-488ff22e.js","assets/SectionAbout.styled-d7f5d68c.js","assets/post03@2x-min-a971722f.js","assets/post02@2x-min-1d82c36b.js","assets/SectionFeedbacks.styled-b54c67bb.js"])),R=r.lazy(()=>i(()=>import("./SectionContacts-6d1460f6.js"),["assets/SectionContacts-6d1460f6.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionServices.styled-488ff22e.js","assets/SectionContacts.styled-e04234ed.js"])),S={margin:0,justifyContent:"normal",gap:"10px",paddingRight:"10px",maxWidth:"max-content"},E=o.div`
+  background-image: url(${m});
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+  position: relative;
+  top: -60px;
+  left: 0;
+  right: 0;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(${l});
+  }
+  @media screen and (min-width: 1512px) {
+    top: -80px;
+    left: 0;
+    right: 0;
+  }
+`,D=()=>e.jsxs(e.Fragment,{children:[e.jsx(n,{h1:"footer.tireServiceList.1",p:"tireRepair.p",style:S,Bg:E,maxWidth:672}),e.jsx(g,{}),e.jsx(h,{}),e.jsx(u,{}),e.jsx(j,{}),e.jsx(v,{}),e.jsx(R,{})]});export{D as default};

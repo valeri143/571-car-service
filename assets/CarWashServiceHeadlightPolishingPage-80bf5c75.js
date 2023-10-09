@@ -1,0 +1,20 @@
+import{r as e,_ as t,u as a,j as i,b as o}from"./index-1fbd4b46.js";import{C as n}from"./CarWashServiceRepairHero-fbeba7c5.js";import{k as c,b as l,c as h,d as s}from"./CarServiceRepair.styled-9023d463.js";import{C as d}from"./CarServiceRepairForm-48674675.js";import"./Hero.styled-9a91b5e8.js";import"./Error-48347680.js";const g="/571-car-service/assets/headlight-bg@1x-min-17e723e4.jpg",p="/571-car-service/assets/headlight-bg@2x-min-7184b720.jpg",x=e.lazy(()=>t(()=>import("./CarServiceRepairPrice-b72ac53f.js"),["assets/CarServiceRepairPrice-b72ac53f.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/CarServiceRepair.styled-9023d463.js"])),m=()=>{const{t:r}=a();return i.jsx("section",{children:i.jsx(c,{children:i.jsxs(l,{children:[i.jsx(d,{}),i.jsxs(h,{children:[i.jsx(s,{children:r("headlightPolishing.paragraph.0")}),i.jsx(s,{children:r("headlightPolishing.paragraph.1")}),i.jsx(s,{children:r("headlightPolishing.paragraph.2")})]}),i.jsx(x,{h2:"headlightPolishing.h2",list:"headlightPolishing.serviceList",price:"headlightPolishing.priceList"})]})})})},_=e.lazy(()=>t(()=>import("./SectionFeedbacks-7110bdc1.js"),["assets/SectionFeedbacks-7110bdc1.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/FeedbacksItem-b40d9471.js","assets/FeedbacksItem.styled-e4a7c8c3.js","assets/SectionFeedbacks.styled-b54c67bb.js","assets/SectionServices.styled-488ff22e.js","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionCertifications.styled-f983a02e.js"])),u=e.lazy(()=>t(()=>import("./SectionCertifications-948d4af5.js"),["assets/SectionCertifications-948d4af5.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionAbout.styled-d7f5d68c.js","assets/SectionCertifications.styled-f983a02e.js","assets/Hero.styled-9a91b5e8.js","assets/SectionCertifications-1d4a300e.css"])),v=e.lazy(()=>t(()=>import("./SectionForm-e2e1fdd7.js").then(r=>r.a),["assets/SectionForm-e2e1fdd7.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Error-48347680.js","assets/SectionServices.styled-488ff22e.js","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionCertifications-948d4af5.js","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/SectionAbout.styled-d7f5d68c.js","assets/SectionCertifications.styled-f983a02e.js","assets/SectionCertifications-1d4a300e.css"])),j=e.lazy(()=>t(()=>import("./SectionBlog-51ab8aae.js"),["assets/SectionBlog-51ab8aae.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/navigation-ee94f8a8.js","assets/navigation-f910fe1e.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionServices.styled-488ff22e.js","assets/SectionAbout.styled-d7f5d68c.js","assets/post03@2x-min-a971722f.js","assets/post02@2x-min-1d82c36b.js","assets/SectionFeedbacks.styled-b54c67bb.js"])),P=e.lazy(()=>t(()=>import("./SectionContacts-6d1460f6.js"),["assets/SectionContacts-6d1460f6.js","assets/index-1fbd4b46.js","assets/index-ec1cc735.css","assets/Hero-69e7df55.js","assets/Hero.styled-9a91b5e8.js","assets/SectionServices.styled-488ff22e.js","assets/SectionContacts.styled-e04234ed.js"])),b=o.div`
+  background-image: url(${g});
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 470px;
+  position: relative;
+  top: -60px;
+  left: 0;
+  right: 0;
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(${p});
+  }
+  @media screen and (min-width: 1512px) {
+    top: -80px;
+    left: 0;
+    right: 0;
+  }
+`,S={gap:"15px",maxWidth:"max-content",paddingRight:"15px",margin:0,justifyContent:"normal"},D=()=>i.jsxs(i.Fragment,{children:[i.jsx(n,{h1:"services.servicesUlText.0",p:"headlightPolishing.p",buttonText:"carWash.buttonText",style:S,Bg:b}),i.jsx(m,{}),i.jsx(_,{}),i.jsx(u,{}),i.jsx(v,{}),i.jsx(j,{}),i.jsx(P,{})]});export{D as default};

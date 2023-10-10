@@ -1,11 +1,10 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import { animation } from '../Hero/Hero';
+import { animation } from '../../helpers/index';
 
 import { StyledContainer } from 'components/SectionServices/SectionServices.styled';
 import {

@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { scrollToForm } from '../../helpers/scrollToForm';
+import { animation } from '../../helpers/index';
 import {
   StyledBackGroundImage,
   StyledAnimationDiv01,
@@ -8,7 +9,6 @@ import {
   StyledAnimationDiv03,
   StyledAnimationP,
   StyledAnimationUl,
-  StyledContainer,
   StyledH1,
   StyledImg,
   StyledP,
@@ -23,6 +23,7 @@ import {
   StyledNumP01,
   StyledDH1,
   StyledAnimationDiv,
+  StyledContainerHero,
 } from './Hero.styled';
 import sprite from '../../images/sprite.svg';
 import bgCarMobile1x from '../../images/mobile/backgrounds/car-bg@1x-min.png';
@@ -37,31 +38,13 @@ import {
   StyledSvg,
 } from 'components/Header/Header.styled';
 
-export const animation = {
-  hidden: {
-    y: 300,
-    opacity: 0,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-};
 export const Hero = () => {
   const { t } = useTranslation();
 
   return (
     <section>
       <StyledBackGroundImage>
-        <StyledContainer>
+        <StyledContainerHero>
           <StyledAnimationDiv>
             <StyledH1>
               {t('hero.h1.0')} <span>{t('hero.h1.1')}</span>
@@ -149,7 +132,7 @@ export const Hero = () => {
               </StyledBenefitsDiv>
             </li>
           </StyledBenefitsUl>
-        </StyledContainer>
+        </StyledContainerHero>
       </StyledBackGroundImage>
     </section>
   );

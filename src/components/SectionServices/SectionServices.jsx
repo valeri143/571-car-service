@@ -1,6 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { animation } from '../Hero/Hero';
+import { animation } from '../../helpers/index';
 import { useTranslation } from 'react-i18next';
 import {
   StyledBgSvg,

@@ -9,8 +9,7 @@ import {
   StyledCircleDiv,
   StyledContainer,
 } from 'components/SectionServices/SectionServices.styled';
-import { animation } from '../Hero/Hero';
-import { animationRight } from '../SectionCertifications/SectionCertifications';
+import { animation, animationRight } from '../../helpers/index';
 import {
   StyledBackGroundImage,
   StyledBgImg,

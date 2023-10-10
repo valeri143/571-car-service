@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { animation } from '../Hero/Hero';
+import { animation } from '../../helpers/index';
 import { StyledContainer } from 'components/Hero/Hero.styled';
 import {
   StyledAboutDiv,

@@ -1,4 +1,3 @@
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { Navigation, Pagination } from 'swiper/modules';
@@ -6,6 +5,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import { animationRight, animationButton } from '../../helpers/index';
 
 import arrowSwiper from '../../images/arrow-swiper.svg';
 import arrowSwiperPrev from '../../images/arrow-swiper-prev.svg';
@@ -34,46 +34,6 @@ import {
   StyledArrowImg,
   StyledArrowNext,
 } from './SectionCertifications.styled';
-
-export const animationRight = {
-  hidden: {
-    x: 100,
-    opacity: 0,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-  visible: {
-    x: 0,
-    opacity: 1,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-    },
-  },
-};
-
-export const animationButton = {
-  hidden: {
-    x: 100,
-    opacity: 0,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-      delay: 1,
-    },
-  },
-  visible: {
-    opacity: 1,
-    x: 0,
-    transition: {
-      duration: 1,
-      ease: 'easeInOut',
-      delay: 1,
-    },
-  },
-};
 
 const SectionCertifications = () => {
   const { t } = useTranslation();

@@ -46,7 +46,7 @@ export const StyledContainerHero = styled.div`
     width: 768px;
   }
   @media screen and (min-width: 1512px) {
-    width: 99vw;
+    width: 90vw;
     padding: 100px 156px 150px 156px;
   }
 `;
